@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <h1>{t('greeting')}</h1>
       <ChangeLocale />
-      <Link href="/about">retour</Link>
+      <Link href="/about">About</Link>
     </div>
   );
 }
